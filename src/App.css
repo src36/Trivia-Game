@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Smooch&display=swap");
+.App {
+  text-align: center;
+  background-image: url("./components/images/img.jpg");
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Trivia game */
+.container h1 {
+  padding: 10px;
+  color: rgb(30, 221, 148);
+  font-size: 50px;
+  font-family: "Smooch", cursive;
+}
+ul li {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #f2f2f2;
+  list-style: none;
+  padding: 5px;
+}
+.questionContainer {
+  display: flex;
+  justify-content: center;
+  margin: auto 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+span {
+  color: rgb(231, 157, 46);
+}
+.ansContainer {
+  margin: 20px auto;
+}
+.ansContainer input {
+  width: 400px;
+  height: 30px;
+  border: 2px solid black;
+  color: #282c34;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.ansContainer button {
+  background-color: #ce2929;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
